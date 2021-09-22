@@ -11,12 +11,12 @@ from miranda import *
 
 if __name__ == "__main__":
     try:
-        print ''
-        print 'Miranda v1.3'
-        print 'The interactive UPnP client'
-        print 'Craig Heffner, http://www.devttys0.com'
-        print ''
+        print('')
+        print('Miranda v1.3')
+        print('The interactive UPnP client')
+        print('Craig Heffner, http://www.devttys0.com')
+        print('')
         main(len(sys.argv),sys.argv)
-    except Exception, e:
-        print 'Caught main exception:',e
+    except Exception as e:
+        print('Caught main exception:',e)
         sys.exit(1)
