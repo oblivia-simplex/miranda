@@ -69,6 +69,8 @@ class CmdCompleter:
 
 
 def get_address_of_interface(iface):
+    if iface is None:
+        return '0.0.0.0'
     if type(iface) is bytes:
         iface = iface.decode('utf-8')
     return netifaces.ifaddresses(iface)[netifaces.AF_INET][0]['addr']

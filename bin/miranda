@@ -12,9 +12,9 @@ from miranda import *
 if __name__ == "__main__":
     try:
         print('')
-        print('Miranda v1.3')
+        print('Miranda v2.0')
         print('The interactive UPnP client')
-        print('Craig Heffner, http://www.devttys0.com')
+        print('Craig Heffner, http://www.devttys0.com\nLucca Fraser, http://feralmachin.es')
         print('')
         main(len(sys.argv), sys.argv)
     except Exception as e:
